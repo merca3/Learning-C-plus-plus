@@ -1,0 +1,8 @@
+1 Apple
+2 Banana
+3 Cherry
+4 Pear
+5 Strawberry
+6 Kivi
+7 Watermelon
+8 Orange

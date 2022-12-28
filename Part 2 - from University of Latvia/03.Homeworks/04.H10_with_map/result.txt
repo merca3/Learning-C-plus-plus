@@ -1,0 +1,13 @@
+13 Pink
+12 Purple
+11 Blue
+10 Black
+9 Orange
+8 Orange
+7 GreenWatermelon
+6 Kivi
+5 WhiteStrawberry
+4 Pear
+3 RedCherry
+2 Banana
+1 YellowApple
