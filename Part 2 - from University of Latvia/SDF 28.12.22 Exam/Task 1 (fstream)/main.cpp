@@ -1,6 +1,4 @@
 /******************************************************************************
- 
-Katrina Merca - km11104
 
 1. Given text file. Write program in C++ to process the file line by line, 
 which prints the first line containing two equal adjacent digits. 

@@ -1,7 +1,5 @@
 /******************************************************************************
 
-Katrina Merca - km11104
-
 A. Write C++ function (only function not the whole program) to process one-way linked list of int.
 Already created non-empty linked list is supplied as pointer to the first element.
 A1[10]. Function increaseFirstEvenBeforeOdd, which increases by 1 the first even number directly followed by an odd number.

@@ -1,7 +1,5 @@
 /******************************************************************************
 
-Katrina Merca - km11104
-
 2. A list of numbers is implemented as a single-linked list using nodes. 
 The node is of type Node {int info; Node* next}. Node* listHead points to the first node in the list. 
 Write the function deleteElement(Node* listHead) which delete the node with index (position) stored in the last element. 

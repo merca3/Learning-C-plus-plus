@@ -1,7 +1,5 @@
 /******************************************************************************
 
-Katrina Merca - km11104
-
 4. Given binary file of int values (exactly 4 bytes per number). 
 Write C++ program to process the file (duplicate of the file in the memory not allowed), 
 which calculates the number of elements in the file, ones equal either to the second or to the second last element. 

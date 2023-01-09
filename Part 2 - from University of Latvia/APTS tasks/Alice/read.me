@@ -1,0 +1,85 @@
+Description
+Alice has drawn a tree (in IT sense), where nodes contained unique numbers on the paper. 
+After a moment, Alice has remembered her adventures that happened when she went through the Looking-Glass. 
+She immediately wanted to know, what this tree would look like from the “other side of the mirror”. 
+Help Alice to get through this task and draw the mirror image of the tree (look at Mirror image).
+
+A computer understands a tree if it is defined in the following format:
+
+each line contains a record about a node that is not a leaf (internal node);
+the first number of the record depicts a number of the internal node, 
+followed by the numbers of its children in the left-to-right order.
+If the order of these records is not defined strictly, then the tree shown in can 
+be recorded by several forms. For example, it can be given as:
+
+1 2 3 4 5
+3 6 7 
+5 8
+8 9 10 11
+or
+
+5 8
+3 6 7 
+8 9 10 11
+1 2 3 4 5
+
+The output tree also should be written in the same format. 
+However, there is an additional condition that internal nodes are in preorder sequence, 
+i.e. the parent’s record always precedes the child record.
+
+Alice has decided to give a programmer kisses (grade of the solution) depending on the 
+quality of the job. If a program can process only the trees in preorder sequence, 
+then he can only claim 8 kisses. If a program can process trees written in any order 
+in time longer than O(n log n), then 9 kisses. Moreover, if it can process trees written 
+in any order in time no longer than O(n log n), then – 10 kisses, where n is node number.
+
+Alice is not keen on drawing trees. Consequently, a tree would not contain more than 10’000 nodes.
+
+Input:
+The input file contains no or many records with the records of internal nodes of the tree in 
+the following format:
+
+Parent Child_1 Child_2 ... Child_n
+...
+0
+Parent depicts the number of internal node of the tree [1..999’999’999]
+Child_i depicts the number of i-th child of Parent node (number [1..999’999’999])
+0 - Input file always ends with the line that contains only number 0.
+The input file is correct regarding the input data format and given conditions.
+
+Output:
+The output file should contain a mirror image of the given tree. The tree should be written in 
+the following way: internal nodes in preorder sequence.
+
+Example 1 (input in preorder):
+The content of input file alice.in:
+
+1 2 3 4 5
+3 6 7 
+5 8
+8 9 10 11
+0
+The content of output file alice.out:
+
+1 5 4 3 2
+5 8
+8 11 10 9
+3 7 6
+0
+
+
+Example 2 (input in free order):
+The content of input file alice.in:
+
+5 8
+3 6 7 
+8 9 10 11
+1 2 3 4 5
+0
+The content of output file alice.out:
+
+1 5 4 3 2
+5 8
+8 11 10 9
+3 7 6
+0

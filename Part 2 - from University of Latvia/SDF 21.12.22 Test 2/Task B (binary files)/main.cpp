@@ -1,7 +1,5 @@
 /******************************************************************************
 
-Katrina Merca - km11104
-
 B. Given binary file of int values (exactly 4 bytes per number).
 Write function in C++ to process the file (only constant amount of auxiliary memory allowed).
 

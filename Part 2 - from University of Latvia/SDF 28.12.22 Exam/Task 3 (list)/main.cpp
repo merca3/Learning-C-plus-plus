@@ -1,7 +1,5 @@
 /******************************************************************************
 
-Katrina Merca - km11104
-
 3. Write C++ program to process sequence of integer values of type list<int>: 
 increase all elements by 1 those equal either to the second or to the second last element (except themselves). 
 E.g., {1,3,3,3,4,1,4}→{2,3,4,4,4,1,4}.
